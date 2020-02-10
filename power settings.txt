@@ -1,0 +1,18 @@
+I am using the following under “settings/advanced/power”:
+
+Critical Level
+    Duration = 180
+    Voltage = 12.3
+Safety Cut-out
+    Duration = 150
+    Voltage = 12.20
+Event Driven
+    Delay = 120
+    Event Regex = ^vehicle/pwr/off
+    Period = 600
+Suppress
+    Event Regex = ^vehicle/pwr/on
+Wake Trigger
+    Voltage Change = +0.40
+    Voltage Change Duration = 2000ms
+    Voltage Level > 13.30

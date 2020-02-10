@@ -1,0 +1,5 @@
+I am using the following under “settings/advanced/trip”:
+
+Reopen Limit = 1800s
+End Tags = vehicle/drive/end
+Start Tags = vehicle/drive/start
